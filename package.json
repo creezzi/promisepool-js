@@ -1,0 +1,17 @@
+{
+  "name": "promisepool-js",
+  "version": "0.1.0",
+  "description": "Run async work over a list with a concurrency limit, keeping results in order.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Adrian Delacruz",
+  "license": "MIT"
+}
